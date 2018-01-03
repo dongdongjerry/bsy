@@ -1,6 +1,6 @@
 <template>
 		<div class="index-wp">
-			<vTitle :titleStyle="2"></vTitle>
+			<vTitle></vTitle>
 			<router-view class="content"></router-view>
     	<vFooter></vFooter>
 		</div>
@@ -15,11 +15,6 @@
 	  components: {
 	  	vFooter,
 	  	vTitle
-	  },
-	  data () {
-	  	return {
-	  		titleStyle: 2
-	  	}
 	  }
   }
 </script>
