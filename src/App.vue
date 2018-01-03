@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <nav class="nav">
-      <router-link to="/active">active</router-link>
-      <router-link to="/compose">compose</router-link>
-      <router-link to="/index">index</router-link>
-      <router-link to="/search">search</router-link>
-      <router-link to="/strategy">strategy</router-link>
-    </nav>
+    <router-link to="/active">active</router-link>
+    <router-link to="/compose">compose</router-link>
+    <router-link to="/index">index</router-link>
+    <router-link to="/search">search</router-link>
+    <router-link to="/strategy">strategy</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -18,10 +16,5 @@ export default {
 </script>
 
 <style>
-.nav{
-  position: fixed;
-  bottom: 0;
-  font-size: .34rem;
-  color: aqua;
-}
+
 </style>
