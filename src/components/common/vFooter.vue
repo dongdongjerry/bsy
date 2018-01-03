@@ -1,8 +1,8 @@
 <template>
 	<div class="vFooter">
-		<router-link to="/index">首页</router-link>
+		<router-link to="/home">首页</router-link>
     <router-link to="/strategy">攻略</router-link>
-    <router-link to="/compose">图鉴</router-link>
+    <router-link to="/handbook">图鉴</router-link>
     <router-link to="/active">活动</router-link>
 	</div>
 </template>

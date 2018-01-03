@@ -1,6 +1,5 @@
 <template>
 		<div class="index-wp">
-			<vTitle :titleStyle="2"></vTitle>
 			<router-view class="content"></router-view>
     	<vFooter></vFooter>
 		</div>
@@ -8,20 +7,16 @@
 
 <script>
 	import vFooter from '#/common/vFooter'
-	import vTitle from '#/common/vTitle'
 
-  export default {
-    name: 'index',
-	  components: {
-	  	vFooter,
-	  	vTitle
-	  },
-	  data () {
-	  	return {
-	  		titleStyle: 2
-	  	}
-	  }
+export default {
+  name: 'index',
+  components: {
+    vFooter
+  },
+  data () {
+    return {}
   }
+}
 </script>
 
 <style>

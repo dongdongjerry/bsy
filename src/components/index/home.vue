@@ -1,16 +1,20 @@
 <template>
   <div>
-    <vTitle title="攻略"></vTitle>
-    这里是攻略页
+    <vTitle title="首页"></vTitle>
+    <div>
+      这里是home
+    </div>
   </div>
 </template>
 
 <script>
   import vTitle from '#/common/vTitle'
   export default {
-    name: 'strategy',
     components: {
       vTitle
+    },
+    data: () => {
+      return {}
     }
   }
 </script>

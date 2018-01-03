@@ -1,14 +1,13 @@
 <template>
   <div>
-    <vTitle title="活动"></vTitle>
-    <div>这里是active</div>
+    <vTitle title="图鉴">图鉴</vTitle>
+    这里是图鉴
   </div>
 </template>
 
 <script>
 import vTitle from '#/common/vTitle'
 export default {
-  name: 'active',
   components: {
     vTitle
   }
