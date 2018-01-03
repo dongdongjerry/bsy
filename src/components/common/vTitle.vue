@@ -13,7 +13,10 @@
 	  	return {
 
 	  	}
-	  }
+	  },
+	  props:[
+			"titleStyle"
+		]
 	}
 </script>
 

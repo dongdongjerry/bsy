@@ -9,7 +9,7 @@
 
 <script>
 	export default {
-	  name: 'vFooter'
+	  name: 'vFooter',
 	}
 </script>
 
