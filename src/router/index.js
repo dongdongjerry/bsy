@@ -11,29 +11,35 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/active',
-      name: 'active',
-      component: active
-    },
-    {
-      path: '/compose',
-      name: 'compose',
-      component: compose
+      path: '/',
+      redirect: '/index'
     },
     {
       path: '/index',
       name: 'index',
-      component: index
-    },
+      component: index,
+      children:[
+        {
+          path: '/strategy',
+          name: 'strategy',
+          component: strategy
+        },
+        {
+          path: '/compose',
+          name: 'compose',
+          component: compose
+        },
+        {
+          path: '/active',
+          name: 'active',
+          component: active
+        }
+      ]
+    }, 
     {
       path: '/search',
       name: 'search',
       component: search
-    },
-    {
-      path: '/strategy',
-      name: 'strategy',
-      component: strategy
     }
   ]
 })

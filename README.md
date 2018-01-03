@@ -29,7 +29,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ##公共组件--  components-common
 
 ##攻略 strategy
-##图鉴 handbook
+##图鉴 compose
 ##活动 active
 
 # '#'='src/components'
