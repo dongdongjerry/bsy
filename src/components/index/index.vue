@@ -1,6 +1,6 @@
 <template>
 		<div class="index-wp">
-			<vTitle :title="title"></vTitle>
+			<vTitle :titleStyle="2"></vTitle>
 			<router-view class="content"></router-view>
     	<vFooter></vFooter>
 		</div>
@@ -18,7 +18,7 @@
 	  },
 	  data () {
 	  	return {
-	  		title: '首页1'
+	  		titleStyle: 2
 	  	}
 	  }
   }

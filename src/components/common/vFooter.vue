@@ -1,20 +1,15 @@
 <template>
 	<div class="vFooter">
-		<router-link to="/index" @click="btn1">首页</router-link>
-    <router-link to="/strategy" @click="btn1">攻略</router-link>
-    <router-link to="/compose" @click="btn1">图鉴</router-link>
-    <router-link to="/active" @click="btn1">活动</router-link>
+		<router-link to="/index">首页</router-link>
+    <router-link to="/strategy">攻略</router-link>
+    <router-link to="/compose">图鉴</router-link>
+    <router-link to="/active">活动</router-link>
 	</div>
 </template>
 
 <script>
 	export default {
 	  name: 'vFooter',
-    methods: {
-      btn1: function () {
-        this.$emit('myfun', this.innerText)
-      }
-    }
 	}
 </script>
 
