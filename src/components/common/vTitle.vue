@@ -1,7 +1,7 @@
 <template>
 	<div class="vTitle">
 		<router-link to="/index" class="btn-return"></router-link>
-		<h2 class="title">首页</h2>
+		<h2 class="title">{{title}}</h2>
 		<router-link to="/search" class="btn-seach"></router-link>
 	</div>
 </template>
@@ -10,13 +10,12 @@
 	export default {
 	  name: 'vTitle',
 	  data () {
-	  	return {
-
-	  	}
+	    return {
+    }
 	  },
-	  props:[
-			"titleStyle"
-		]
+	  props: [
+    'title'
+  ]
 	}
 </script>
 
