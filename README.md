@@ -21,10 +21,17 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ```
-# scss 
+# scss
 # 路由：有 =< index
 		无 = 新建
 ##文件归类--  对应文件夹 -->index(i am xx)...view...
 ##公共资源--  src- common-->img css js
 ##公共组件--  components-common
+
+##攻略 strategy
+##图鉴 handbook
+##活动 active
+
+# '#'='src/components'
+# '~'='src/common'
 ```
