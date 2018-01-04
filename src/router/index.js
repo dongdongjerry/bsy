@@ -14,13 +14,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/index'
+      redirect: '/home'
     },
     {
       path: '/index',
       name: 'index',
       component: index,
       children: [
+        {
+          path: '/home',
+          name: 'home',
+          component: home
+        },
         {
           path: '/strategy',
           name: 'strategy',
@@ -40,12 +45,7 @@ export default new Router({
           path: '/active',
           name: 'active',
           component: active
-        },
-        {
-          path: '/home',
-          name: 'home',
-          component: home
-        }
+        } 
       ]
     },
     {
