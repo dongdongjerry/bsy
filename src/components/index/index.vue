@@ -21,6 +21,8 @@ export default {
 
 <style>
 	.content{
-		padding: .9rem 0 1rem;
+    width: 100%;
+    overflow: hidden;
+		padding: .9rem 0 1.22rem;
 	}
 </style>

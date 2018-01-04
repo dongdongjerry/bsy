@@ -21,6 +21,8 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ```
+地址：https://github.com/dongdongjerry/bsy.git
+原文件地址：http://120.76.101.21:8000/frontend/index.html?ac=A/hS8fMOqUFZ7khcPAcL6w==&rid=null?qqdrsign=03935
 # scss
 # 路由：有 =< index
 		无 = 新建
